@@ -12,9 +12,25 @@ public class Motorbike extends Vehicle {
 
     }
 
+    @Override
+    public boolean canFitLargeSpace(ParkingSpace largeSpace) {
 
+        return true;
+    }
 
-    };
+    @Override
+    public boolean canFitRegularSpace(ParkingSpace regularSpace) {
+
+        return true;
+    }
+
+    @Override
+    public boolean canFitSmallSpace(ParkingSpace smallSpace) {
+
+        return true;
+    }
+
+};
 
 
 
