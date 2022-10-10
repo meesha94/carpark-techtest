@@ -4,11 +4,9 @@ import java.util.ArrayList;
 public class Car extends Vehicle {
 
     public Car(){
-
         regularSpacesNeeded = 1;
         largeSpacesNeeded = 1;
         size = VehicleType.Car;
-
     }
 
     @Override
