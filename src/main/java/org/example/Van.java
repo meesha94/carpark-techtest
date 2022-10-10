@@ -7,7 +7,7 @@ public class Van extends Vehicle {
 
         regularSpacesNeeded = 3;
         largeSpacesNeeded = 1;
-        size = VehicleType.Motorbike;
+        size = VehicleType.Van;
 
     }
 

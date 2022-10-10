@@ -29,6 +29,13 @@ public abstract class Vehicle {
         this.size = size;
     }
 
+    public Vehicle() {
+
+    }
+
+    public Vehicle() {
+    }
+
     //getters and setters
 
     public VehicleType getVehicleType() {
