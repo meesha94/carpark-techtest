@@ -1,13 +1,13 @@
 package org.example;
 import java.util.ArrayList;
 
-public class Car extends Vehicle {
+public class Van extends Vehicle {
 
-    public Car(){
+    public Van(){
 
-        regularSpacesNeeded = 1;
+        regularSpacesNeeded = 3;
         largeSpacesNeeded = 1;
-        size = VehicleType.Car;
+        size = VehicleType.Motorbike;
 
     }
 
